@@ -11,3 +11,14 @@ for _ in 0..4 {
   *e2 += 1;
 }
 ```
+
+```
+[examples/main.rs:7] *e1 = 0
+[examples/main.rs:7] *e2 = 42
+[examples/main.rs:7] *e1 = 1
+[examples/main.rs:7] *e2 = 43
+[examples/main.rs:7] *e1 = 2
+[examples/main.rs:7] *e2 = 44
+[examples/main.rs:7] *e1 = 3
+[examples/main.rs:7] *e2 = 45
+```
