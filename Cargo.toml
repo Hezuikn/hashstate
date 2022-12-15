@@ -1,0 +1,8 @@
+[package]
+name = "hashstate"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+parking_lot = { version = "*", features = ["arc_lock"] }
+halfbrown = "*"
